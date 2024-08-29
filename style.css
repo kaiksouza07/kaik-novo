@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1920x600') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn-primary, .btn-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #e50914;
+}
+
+.btn-secondary {
+    background-color: #333;
+}
+
+.destaques {
+    padding: 20px;
+    text-align: center;
+}
+
+.destaques h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.filmes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.filme {
+    margin: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.filme img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.filme p {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.planos {
+    text-align: center;
+    padding: 20px;
+}
+
+.plano {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.plano h3 {
+    font-size: 1.5em;
+}
+
+.plano p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.plano ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.plano li {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
